@@ -1,0 +1,23 @@
+body{
+    background-color: darkgrey;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+input, button{
+    background-color: black;
+    color: white;
+}
+
+input::placeholder{
+    color: black;
+}
+
+button:hover{
+    background-color: black;
+}
+
+button{
+    cursor: pointer;
+}
